@@ -92,12 +92,12 @@ let checkVictoryBot = () => {
 
 let checkVictoryLeft = () => {
     const div1 = document.getElementById('div1')
-    const div3 = document.getElementById('div3')
+    const div4 = document.getElementById('div4')
     const div7 = document.getElementById('div7')
-    if(div1 !==null & div3 !==null & div7 !==null){
-        if(div1.innerText=='x' && div3.innerText=='x' && div7.innerText=='x'){
+    if(div1 !==null & div4 !==null & div7 !==null){
+        if(div1.innerText=='x' && div4.innerText=='x' && div7.innerText=='x'){
             xPop.classList.add('x-pop-on')
-        }else if(div1.innerText=='o' && div3.innerText=='o' && div7.innerText=='o'){
+        }else if(div1.innerText=='o' && div4.innerText=='o' && div7.innerText=='o'){
             oPop.classList.add('o-pop-on')
         }
     }else{
