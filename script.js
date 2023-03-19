@@ -162,10 +162,8 @@ let checkVictoryDiag2 = () => {
 
 boxClick1.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick1.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div1 = document.createElement('div1')
         div1.setAttribute('id', 'div1')
@@ -197,10 +195,8 @@ boxClick1.addEventListener('click', function(){
 
 boxClick2.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick2.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div2 = document.createElement('div')
         div2.setAttribute('id', 'div2')
@@ -230,10 +226,8 @@ boxClick2.addEventListener('click', function(){
 })
 boxClick3.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick3.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div3 = document.createElement('div')
         div3.setAttribute('id', 'div3')
@@ -262,10 +256,8 @@ boxClick3.addEventListener('click', function(){
 })
 boxClick4.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick4.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div4 = document.createElement('div')
         div4.setAttribute('id', 'div4')
@@ -293,10 +285,8 @@ boxClick4.addEventListener('click', function(){
 })
 boxClick5.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick5.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div5 = document.createElement('div')
         div5.setAttribute('id', 'div5')
@@ -324,10 +314,8 @@ boxClick5.addEventListener('click', function(){
 })
 boxClick6.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick6.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div6 = document.createElement('div')
         div6.setAttribute('id', 'div6')
@@ -355,10 +343,8 @@ boxClick6.addEventListener('click', function(){
 })
 boxClick7.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
     if(boxClick7.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div7 = document.createElement('div')
         div7.setAttribute('id', 'div7')
@@ -385,12 +371,10 @@ boxClick7.addEventListener('click', function(){
     checkVictoryTop()
 })
 boxClick8.addEventListener('click', function(){
-
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
-
+    
     if(boxClick8.innerText === ''){
-        if(currentPlayer.state.xTurn==false){
+        handleCheckPlayer()
+        if(currentPlayer.state.xTurn==false){    
         let div8 = document.createElement('div')
         div8.setAttribute('id', 'div8')
         div8.classList.add('place-x')
@@ -417,10 +401,9 @@ boxClick8.addEventListener('click', function(){
 })
 boxClick9.addEventListener('click', function(){
 
-    handleCheckPlayer()
-    console.log(currentPlayer.state)
     
     if(boxClick9.innerText === ''){
+        handleCheckPlayer()
         if(currentPlayer.state.xTurn==false){
         let div9 = document.createElement('div')
         div9.setAttribute('id', 'div9')
