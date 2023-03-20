@@ -211,38 +211,62 @@ body{
     .square-box1{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-right: solid black 8px;
     }
     .square-box2{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-right: solid black 8px;
+        border-left:solid black 8px;
     }
     .square-box3{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-left:solid black 8px;
     }
     .square-box4{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-right: solid black 8px;
+        border-top: solid black 8px;
     }
     .square-box5{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-right: solid black 8px;
+        border-left:solid black 8px;
+        border-top: solid black 8px;
     }
     .square-box6{
         height: 150px;
         width: 150px;
+        border-bottom: solid black 8px;
+        border-left:solid black 8px;
+        border-top: solid black 8px;
     }
     .square-box7{
         height: 150px;
         width: 150px;
+        border-right: solid black 8px;
+        border-top: solid black 8px;
     }
     .square-box8{
         height: 150px;
         width: 150px;
+        border-right: solid black 8px;
+        border-left:solid black 8px;
+        border-top: solid black 8px;
     }
     .square-box9{
         height: 150px;
         width: 150px;
+        border-left:solid black 8px;
+        border-top: solid black 8px;
     }
     .x-pop-on{
         height: 450px;
@@ -273,55 +297,79 @@ body{
         margin: auto;
         display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         margin-bottom: 10px;
     }
 
     .square-box1{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-right: solid black 5px;
     }
     .square-box2{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-right: solid black 5px;
+        border-left:solid black 5px;
     }
     .square-box3{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-left:solid black 5px;
     }
     .square-box4{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-right: solid black 5px;
+        border-top: solid black 5px;
     }
     .square-box5{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-right: solid black 5px;
+        border-left:solid black 5px;
+        border-top: solid black 5px;
     }
     .square-box6{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-bottom: solid black 5px;
+        border-left:solid black 5px;
+        border-top: solid black 5px;
     }
     .square-box7{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-right: solid black 5px;
+        border-top: solid black 5px;
     }
     .square-box8{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-right: solid black 5px;
+        border-left:solid black 5px;
+        border-top: solid black 5px;
     }
     .square-box9{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
+        border-left:solid black 5px;
+        border-top: solid black 5px;
     }
     .x-pop-on{
-        height: 300px;
-        width: 300px;
+        height: 270px;
+        width: 270px;
         font-size: 35px;
     }
     .o-pop-on{
-        height: 300px;
-        width: 300px;
+        height: 270px;
+        width: 270px;
         font-size: 35px;
     }
     .reset-btn{
@@ -331,9 +379,9 @@ body{
         margin-top: 15px
     }
     .place-o{
-        font-size: 75px;
+        font-size: 50px;
     }
     .place-x{
-        font-size: 75px;
+        font-size: 50px;
     }
 }
