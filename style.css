@@ -297,79 +297,79 @@ body{
         margin: auto;
         display: flex;
         flex-direction: column;
-        width: 270px;
-        height: 270px;
+        width: 240px;
+        height: 240px;
         margin-bottom: 10px;
     }
 
     .square-box1{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-right: solid black 5px;
     }
     .square-box2{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-right: solid black 5px;
         border-left:solid black 5px;
     }
     .square-box3{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-left:solid black 5px;
     }
     .square-box4{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-right: solid black 5px;
         border-top: solid black 5px;
     }
     .square-box5{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-right: solid black 5px;
         border-left:solid black 5px;
         border-top: solid black 5px;
     }
     .square-box6{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-bottom: solid black 5px;
         border-left:solid black 5px;
         border-top: solid black 5px;
     }
     .square-box7{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-right: solid black 5px;
         border-top: solid black 5px;
     }
     .square-box8{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-right: solid black 5px;
         border-left:solid black 5px;
         border-top: solid black 5px;
     }
     .square-box9{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
         border-left:solid black 5px;
         border-top: solid black 5px;
     }
     .x-pop-on{
-        height: 270px;
-        width: 270px;
+        height: 240px;
+        width: 240px;
         font-size: 35px;
     }
     .o-pop-on{
-        height: 270px;
-        width: 270px;
+        height: 240px;
+        width: 240px;
         font-size: 35px;
     }
     .reset-btn{
